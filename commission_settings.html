@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Commission Settings</title>
+<style>body{font-family:Arial,sans-serif;margin:20px;max-width:400px;}label{display:block;margin:10px 0 5px;}input[type=number]{width:100%;padding:6px;}button{margin-top:15px;padding:8px 16px;cursor:pointer;}</style></head>
+<body><h1>Commission Settings</h1><form onsubmit="event.preventDefault(); alert('Commission updated!');">
+<label for="commissionRate">Commission Rate (%)</label><input type="number" id="commissionRate" name="commissionRate" min="0" max="100" value="5" required />
+<button type="submit">Save</button></form><hr/><h3>Total Commission Earned:</h3><p>$1234.56</p></body></html>

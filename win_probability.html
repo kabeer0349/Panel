@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Win Probability Controls</title>
+<style>body{font-family:Arial,sans-serif;margin:20px;max-width:500px;}label{display:block;margin:10px 0 5px;}input[type=number]{width:100%;padding:6px;}button{margin-top:15px;padding:8px 16px;cursor:pointer;}</style></head>
+<body><h1>Win Probability Controls</h1><form onsubmit="event.preventDefault(); alert('Settings saved!');">
+<label for="globalWin">Global Win Chance (%)</label><input type="number" id="globalWin" name="globalWin" min="0" max="100" value="30" required />
+<label for="newUserWin">New User Win Boost (%)</label><input type="number" id="newUserWin" name="newUserWin" min="0" max="100" value="65" required />
+<button type="submit">Save Settings</button></form></body></html>
